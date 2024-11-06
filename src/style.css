@@ -1,0 +1,27 @@
+/* Styling for buttons */
+.btn-outline-light {
+    background-color: #374151;
+    /* Dark background for buttons */
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.btn-outline-light:hover {
+    background-color: #4b5563;
+    /* Slightly lighter color on hover */
+}
+
+.bi {
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+/* Adjusting dark mode and light mode colors */
+.bg-body {
+    background-color: #1F2937;
+}

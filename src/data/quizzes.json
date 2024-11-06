@@ -1,0 +1,420 @@
+[
+    {
+        "id": "html",
+        "title": "HTML",
+        "icon": "bi bi-code-slash",
+        "questions": [
+            {
+                "question": "What does HTML stand for?",
+                "correctAnswerIndex": 2,
+                "answers": [
+                    "Hyper Trainer Marking Language",
+                    "Hyper Text Marketing Language",
+                    "Hyper Text Markup Language",
+                    "Hyper Text Markup Leveler"
+                ]
+            },
+            {
+                "question": "Which of the following is the correct structure for an HTML document?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "<html><head></head><body></body></html>",
+                    "<head><html></html><body></body></head>",
+                    "<body><head></head><html></html></body>",
+                    "<html><body></body><head></head></html>"
+                ]
+            },
+            {
+                "question": "Which HTML element is used to define the title of a document?",
+                "correctAnswerIndex": 1,
+                "answers": [
+                    "<head>",
+                    "<title>",
+                    "<header>",
+                    "<top>"
+                ]
+            },
+            {
+                "question": "What is the purpose of the <div> tag?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "To define a division or section in an HTML document.",
+                    "To style a section of the document.",
+                    "To create a hyperlink.",
+                    "To include an image."
+                ]
+            },
+            {
+                "question": "Which of the following is not a semantic HTML element?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "<div>",
+                    "<article>",
+                    "<section>",
+                    "<header>"
+                ]
+            },
+            {
+                "question": "How can you create a hyperlink in HTML?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "Using the <a> tag.",
+                    "Using the <link> tag.",
+                    "Using the <hyperlink> tag.",
+                    "Using the <url> tag."
+                ]
+            },
+            {
+                "question": "What attribute is used to provide an alternate text for an image?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "alt",
+                    "title",
+                    "src",
+                    "href"
+                ]
+            },
+            {
+                "question": "Which HTML tag is used to define an unordered list?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "<ul>",
+                    "<ol>",
+                    "<list>",
+                    "<li>"
+                ]
+            },
+            {
+                "question": "What does the <br> tag do?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "Inserts a line break.",
+                    "Creates a new paragraph.",
+                    "Inserts a horizontal rule.",
+                    "Defines a line of text."
+                ]
+            },
+            {
+                "question": "Which attribute is used to specify the source of an image?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "src",
+                    "link",
+                    "href",
+                    "data"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "css",
+        "title": "CSS",
+        "icon": "bi bi-brush",
+        "questions": [
+            {
+                "question": "What does CSS stand for?",
+                "correctAnswerIndex": 2,
+                "answers": [
+                    "Colorful Style Sheets",
+                    "Computer Style Sheets",
+                    "Cascading Style Sheets",
+                    "Creative Style Sheets"
+                ]
+            },
+            {
+                "question": "Which HTML attribute is used to define inline styles?",
+                "correctAnswerIndex": 1,
+                "answers": [
+                    "styles",
+                    "style",
+                    "class",
+                    "font-style"
+                ]
+            },
+            {
+                "question": "Which property is used to change the text color in CSS?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "color",
+                    "font-color",
+                    "text-color",
+                    "background-color"
+                ]
+            },
+            {
+                "question": "How do you select an element with the class name 'example'?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    ".example",
+                    "#example",
+                    "example",
+                    "class=example"
+                ]
+            },
+            {
+                "question": "What is the correct CSS syntax to change the font size of an element?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "font-size: 16px;",
+                    "font-size: 16;",
+                    "text-size: 16px;",
+                    "text-size: 16;"
+                ]
+            },
+            {
+                "question": "Which CSS property controls the text size?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "font-size",
+                    "text-size",
+                    "size",
+                    "font-style"
+                ]
+            },
+            {
+                "question": "What is the purpose of the margin property?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "To create space outside of an element's border.",
+                    "To create space inside an element's border.",
+                    "To set the width of an element.",
+                    "To set the height of an element."
+                ]
+            },
+            {
+                "question": "How do you apply a CSS style to an HTML element with the ID 'header'?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "#header",
+                    ".header",
+                    "header",
+                    "id=header"
+                ]
+            },
+            {
+                "question": "What is the default value of the position property in CSS?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "static",
+                    "relative",
+                    "absolute",
+                    "fixed"
+                ]
+            },
+            {
+                "question": "Which property is used to change the background color of an element?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "background-color",
+                    "color",
+                    "bg-color",
+                    "background"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "javascript",
+        "title": "JavaScript",
+        "icon": "bi bi-code",
+        "questions": [
+            {
+                "question": "Which syntax is correct to output 'Hello World' in an alert box?",
+                "correctAnswerIndex": 2,
+                "answers": [
+                    "alertBox('Hello World');",
+                    "msg('Hello World');",
+                    "alert('Hello World');",
+                    "msgBox('Hello World');"
+                ]
+            },
+            {
+                "question": "Which of the following is a correct way to declare a variable in JavaScript?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "var myVar;",
+                    "variable myVar;",
+                    "let myVar;",
+                    "const myVar;"
+                ]
+            },
+            {
+                "question": "How do you create a function in JavaScript?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "function myFunction() {}",
+                    "create myFunction() {}",
+                    "myFunction() = function {}",
+                    "def myFunction() {}"
+                ]
+            },
+            {
+                "question": "Which symbol is used for comments in JavaScript?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "//",
+                    "#",
+                    "/*",
+                    "<!--"
+                ]
+            },
+            {
+                "question": "What is the correct way to create an array in JavaScript?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "var myArray = [];",
+                    "var myArray = {};",
+                    "var myArray = () => {};",
+                    "var myArray = new Array;"
+                ]
+            },
+            {
+                "question": "Which method is used to convert a string to an integer in JavaScript?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "parseInt()",
+                    "int()",
+                    "toInteger()",
+                    "convert()"
+                ]
+            },
+            {
+                "question": "How do you access the first element of an array named 'myArray'?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "myArray[0]",
+                    "myArray(0)",
+                    "myArray{0}",
+                    "myArray.first()"
+                ]
+            },
+            {
+                "question": "What is the output of console.log(typeof 'Hello');?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "'string'",
+                    "'text'",
+                    "'number'",
+                    "'undefined'"
+                ]
+            },
+            {
+                "question": "Which of the following is not a JavaScript data type?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "character",
+                    "string",
+                    "number",
+                    "boolean"
+                ]
+            },
+            {
+                "question": "What keyword is used to define a constant variable in JavaScript?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "const",
+                    "let",
+                    "var",
+                    "static"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "accessibility",
+        "title": "Accessibility",
+        "icon": "bi bi-universal-access",
+        "questions": [
+            {
+                "question": "What does 'WCAG' stand for?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "Web Content Accessibility Guidelines",
+                    "Web Compliance Accessibility Guide",
+                    "Web Content Accessibility Goals",
+                    "Website Compliance and Accessibility Guidelines"
+                ]
+            },
+            {
+                "question": "Which of the following is an accessibility feature?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "Alt text for images",
+                    "Using vibrant colors",
+                    "Large fonts only",
+                    "Auto-playing videos"
+                ]
+            },
+            {
+                "question": "What is the purpose of ARIA roles in web development?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "To enhance accessibility for assistive technologies.",
+                    "To improve SEO rankings.",
+                    "To style HTML elements.",
+                    "To create animations."
+                ]
+            },
+            {
+                "question": "What does the tabindex attribute do?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "It specifies the tab order of elements.",
+                    "It defines a custom tab.",
+                    "It sets the position of an element.",
+                    "It controls visibility."
+                ]
+            },
+            {
+                "question": "Which HTML element is used to provide alternative text for images?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "alt attribute in the <img> tag.",
+                    "<description> tag.",
+                    "text tag.",
+                    "<image> tag."
+                ]
+            },
+            {
+                "question": "What should be used to improve keyboard navigation on a website?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "Proper use of semantic HTML elements.",
+                    "Large buttons only.",
+                    "Color-coded links.",
+                    "Pop-up instructions."
+                ]
+            },
+            {
+                "question": "What is a screen reader?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "A tool that reads text on a screen aloud.",
+                    "A device to capture screenshots.",
+                    "A program to edit images.",
+                    "A browser extension for web design."
+                ]
+            },
+            {
+                "question": "Why is color contrast important in web design?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "To ensure text is readable by users with visual impairments.",
+                    "To make the site visually appealing.",
+                    "To enhance SEO.",
+                    "To reduce loading times."
+                ]
+            },
+            {
+                "question": "What does the role attribute do in HTML?",
+                "correctAnswerIndex": 0,
+                "answers": [
+                    "It defines the purpose of an element for assistive technologies.",
+                    "It styles an element.",
+                    "It adds metadata.",
+                    "It specifies the content type."
+                ]
+            }
+        ]
+    }
+]
