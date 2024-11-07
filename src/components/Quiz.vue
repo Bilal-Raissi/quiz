@@ -43,6 +43,7 @@
 import { ref, computed, watchEffect } from 'vue';
 import { useRoute } from 'vue-router'; // Import useRoute to access the route params
 import quizzes from '../data/quizzes.json'; // Import quizzes.json
+import Swal from 'sweetalert2'
 
 export default {
     setup() {
@@ -72,7 +73,11 @@ export default {
 
         const submitAnswer = () => {
             if (selectedAnswer.value === null) {
-                alert("Please select an answer!"); // Alert if no answer is selected
+                // Alert if no answer is selected
+                Swal.fire({
+                    title: "Please select an answer!",
+                    icon: "error"
+                });
                 return;
             }
 
@@ -88,7 +93,10 @@ export default {
                 selectedAnswer.value = null; // Reset selected answer for the next question
             } else {
                 // Show final score when quiz is completed
-                alert(`Quiz completed! Your score is ${score.value} out of ${quizData.value.questions.length}`);
+                Swal.fire({
+                    title: `Quiz completed! Your score is ${score.value} out of ${quizData.value.questions.length}`,
+                    icon: "success"
+                });
             }
         };
 
