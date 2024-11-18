@@ -25,3 +25,29 @@
 .bg-body {
     background-color: #1F2937;
 }
+
+.custom-width {
+    width: 100%;
+    /* Default for smaller screens */
+}
+
+@media (min-width: 992px) {
+    .custom-width {
+        width: 50%;
+        /* 50% width for desktop */
+    }
+}
+
+.custom-with-button-quiz {
+    width: 300px;
+}
+
+@media (min-width: 992px) {
+    .custom-with-button-quiz {
+        width: 400px;
+    }
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff !important;
+}

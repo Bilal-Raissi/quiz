@@ -5,7 +5,7 @@
             <h3 class="mb-0">{{ quizData.title }}</h3>
         </div>
 
-        <div class="container min-vh-100 d-flex flex-column justify-content-center align-items-center w-50">
+        <div class="container min-vh-100 d-flex flex-column justify-content-center align-items-center custom-width">
             <div class="text-center">
                 <p>Question {{ currentQuestionIndex + 1 }} of {{ quizData.questions.length }}</p>
                 <h1>{{ currentQuestion.question }}</h1>
@@ -18,7 +18,7 @@
             </div>
 
             <!-- Buttons for Answers -->
-            <div class="d-flex flex-column mt-4" style="width: 400px;">
+            <div class="d-flex flex-column mt-4 custom-with-button-quiz">
                 <button v-for="(answer, index) in currentQuestion.answers" :key="index"
                     class="btn btn-outline-light mb-3 text-start" :class="{ 'active': selectedAnswer === index }"
                     @click="selectAnswer(index)">
